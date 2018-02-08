@@ -25,6 +25,8 @@ Nevertheless the actuall process of registering a user or a client can be outsou
 
 The `Signup Service` then shares the data concerning the registered users and clients with the `Authorization Server` for authentication and authorization purposes.
 
+When a user or a client goes through the  [`Gateway-Service`](https://github.com/Prempeh-Gyan/1.4-Gateway-Service) to be registered, a message is sent through [`kafka`](https://kafka.apache.org/) to this `Signup Service`, which then reads the data from the message and registers the user or client accordingly.
+
 ### Running the Project (and its Dependencies)
 * Set up and run [`kafka`](https://kafka.apache.org/) then update the [`configuration file`](https://github.com/Prempeh-Gyan/1.1-Config-Repo/blob/master/services/Signup-Service/signup-service.yml ) to point to it
 * Run the [`Config-Server`](https://github.com/Prempeh-Gyan/1.0-Config-Service) to serve the property file for this `Signup Service`
