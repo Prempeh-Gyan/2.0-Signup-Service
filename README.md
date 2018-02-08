@@ -1,6 +1,6 @@
 # Spring Bootiful Microservices (Signup-Service)
 
-#### Navigation Guide: [`Previous Repo: OAuth2-Service`](https://github.com/Prempeh-Gyan/1.3-OAuth2-Service)   |   [`Next Repo: Coming-Soon`](https://github.com/Prempeh-Gyan/Coming-Soon)
+#### Navigation Guide: [`Previous Repo: Gateway-Service`](https://github.com/Prempeh-Gyan/1.4-Gateway-Service)   |   [`Next Repo: Coming-Soon`](https://github.com/Prempeh-Gyan/Coming-Soon)
 
 ### Travis
 [![Build Status](https://travis-ci.org/Prempeh-Gyan/2.0-Signup-Service.svg?branch=master)](https://travis-ci.org/Prempeh-Gyan/2.0-Signup-Service)
